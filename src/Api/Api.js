@@ -1,6 +1,6 @@
 const api = {
   getBallotData() {
-    return fetch('/api/getBallotData').then(res => {
+    return fetch('http://localhost:8080/api/getBallotData').then(res => {
       return res.json();
     });
   }
